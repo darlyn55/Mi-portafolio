@@ -1,41 +1,55 @@
-*/Reseteo general*/
-
-* {
+*/Reseteo general*/ * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     box-sizing: content-box;
 
 }
-body{
+
+body {
     background-color: rgb(236, 233, 199);
 }
 
 /*Aquí empieza la barra de navegación*/
- .container-nav{
+.container-nav {
     background-color: rgb(124, 96, 120);
- box-shadow: 1px 1px 10px 1px rgb(48, 38, 38);
-position: fixed;
-left: 0%;
-right: 0%;
+    box-shadow: 1px 1px 10px 1px rgb(48, 38, 38);
+    position: fixed;
+    left: 0%;
+    right: 0%;
+
+
 }
- a >h4 {
+
+.nav-bar {
+    display: flex;
+    justify-content: end;
+}
+
+a>h4 {
     display: flex;
     justify-content: end;
     gap: 1rem;
     padding: .5rem;
 
+}
 
 
 
-a >h4 {
+
+
+a>h4 {
     color: beige;
     cursor: pointer;
-    font-size: 1rem
-   
+    font-size: 1rem;
+
     color: rgb(236, 175, 220);
 
 }
+a{
+    text-decoration: none;
+}
+
 /*Aquí empieza la sección de servicios*/
 .Servicios {
 
@@ -44,7 +58,7 @@ a >h4 {
 
 }
 
-.title-servicios{
+.title-servicios {
     padding-top: 8rem;
     font-size: 30px;
     font-weight: bold;
@@ -52,14 +66,14 @@ a >h4 {
 
 }
 
-.imagen-servicios{
+.imagen-servicios {
     width: 300px;
-object-fit: contain;
-border-radius: 50%;
-box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
 }
 
-.servicios-img-title{
+.servicios-img-title {
     display: flex;
     width: 80%;
     justify-content: center;
@@ -69,23 +83,23 @@ box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
     gap: 10rem;
     margin: 0 auto;
 }
-.parrafo-servicios{
+
+.parrafo-servicios {
     font-size: 1.4rem;
     line-height: 32px;
     text-align: justify;
     padding-top: 3rem;
 }
 
-/* Aquí empieza la sección de habilidades */ 
-.habilidades{
+/* Aquí empieza la sección de habilidades */
+
+
+.habilidades-title {
+    margin-bottom: 3rem;
 
 }
 
-.habilidades-title{
-margin-bottom: 3rem;
-
-}
-.Mis-habilidades{
+.Mis-habilidades {
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -93,33 +107,31 @@ margin-bottom: 3rem;
     justify-items: center;
     gap: 3rem;
 }
-.imagenes-habilidades{
+
+.imagenes-habilidades {
     display: flex;
     gap: 1rem;
     padding: 1rem;
 }
 
-.row1 >img{ 
+.row1>img {
     width: 50px;
     margin: .5rem;
     box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
 
-   
+
 }
-.row2 >img{ 
+
+.row2>img {
     width: 50px;
     margin: .5rem;
     box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
-    
+
 }
-.row3 >img{
+
+.row3>img {
     width: 50px;
     margin: .5rem;
     box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
-    
+
 }
-
-
-
-
-
