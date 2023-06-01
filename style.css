@@ -19,23 +19,20 @@ position: fixed;
 left: 0%;
 right: 0%;
 }
-
-.nav-bar {
+ a >h4 {
     display: flex;
     justify-content: end;
     gap: 1rem;
     padding: .5rem;
 
 
-}
 
-.nav-bar>h4 {
+
+a >h4 {
     color: beige;
     cursor: pointer;
-    font-size: 1rem;
-}
-
-.nav-bar>h4:hover {
+    font-size: 1rem
+   
     color: rgb(236, 175, 220);
 
 }
@@ -59,7 +56,7 @@ right: 0%;
     width: 300px;
 object-fit: contain;
 border-radius: 50%;
-box-shadow: 1px 1px 10px 1px rgb(48, 38, 38);
+box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
 }
 
 .servicios-img-title{
@@ -78,3 +75,51 @@ box-shadow: 1px 1px 10px 1px rgb(48, 38, 38);
     text-align: justify;
     padding-top: 3rem;
 }
+
+/* Aquí empieza la sección de habilidades */ 
+.habilidades{
+
+}
+
+.habilidades-title{
+margin-bottom: 3rem;
+
+}
+.Mis-habilidades{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 3rem;
+}
+.imagenes-habilidades{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.row1 >img{ 
+    width: 50px;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
+
+   
+}
+.row2 >img{ 
+    width: 50px;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
+    
+}
+.row3 >img{
+    width: 50px;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
+    
+}
+
+
+
+
+
