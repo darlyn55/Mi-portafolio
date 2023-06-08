@@ -1,4 +1,13 @@
-*/Reseteo general*/ * {
+*/Reseteo general*/ 
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+
+
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -142,18 +151,19 @@ a{
 .img-proyecto1{
     width: 500px ;
     margin-top: 4rem;
-    box-shadow: 1px 1px 10px 1px rgb(110, 78, 109);
+    box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
     border-radius: 1rem;
 }
 
 .mi-portafolio{
     display: flex;
     gap: 2rem;
-   justify-content: center;
-   justify-items: center;
-   justify-items: center;
-   justify-content: center;
+    justify-content: center;
+justify-items: center;
+justify-items: center;
+justify-content: center;
 }
+
 .parrafo-portafolio{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
