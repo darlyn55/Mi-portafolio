@@ -84,12 +84,13 @@ a{
     margin: 0 auto;
 }
 
-.parrafo-servicios {
+.parrafos-servicios{
     font-size: 1.4rem;
     line-height: 32px;
     text-align: justify;
     padding-top: 3rem;
 }
+
 
 /* Aquí empieza la sección de habilidades */
 
@@ -132,6 +133,27 @@ a{
 .row3>img {
     width: 50px;
     margin: .5rem;
-    box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
+    bodow: 1px 1px 10px 1px rgb(69, 115, 168);
 
+}
+
+/*Aquí inicia la sesión de portafolio*/
+
+.img-proyecto1{
+    width: 500px ;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 10px 1px rgb(110, 78, 109);
+    border-radius: 1rem;
+}
+
+.mi-portafolio{
+    display: flex;
+    gap: 2rem;
+   justify-content: center;
+   justify-items: center;
+   justify-items: center;
+   justify-content: center;
+}
+.parrafo-portafolio{
+    margin-bottom: 1rem;
 }
