@@ -21,6 +21,7 @@ body {
 
 /*Aquí empieza la barra de navegación*/
 .container-nav {
+    padding: 1.3rem;
     background-color: rgb(124, 96, 120);
     box-shadow: 1px 1px 10px 1px rgb(48, 38, 38);
     position: fixed;
@@ -78,7 +79,7 @@ a{
 .imagen-servicios {
     width: 300px;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 60%;
     box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
 }
 
@@ -93,23 +94,24 @@ a{
     margin: 0 auto;
 }
 
-.parrafos-servicios{
+.parrafo-servicios{
     font-size: 1.4rem;
     line-height: 32px;
     text-align: justify;
     padding-top: 3rem;
 }
 
+    
+
 
 /* Aquí empieza la sección de habilidades */
 
 
-.habilidades-title {
-    margin-bottom: 3rem;
+.habilidades-title{
+    margin-bottom: 1rem;
 
 }
-
-.Mis-habilidades {
+.Mis-habilidades{
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -117,6 +119,9 @@ a{
     justify-items: center;
     gap: 3rem;
 }
+
+ 
+
 
 .imagenes-habilidades {
     display: flex;
@@ -142,7 +147,7 @@ a{
 .row3>img {
     width: 50px;
     margin: .5rem;
-    bodow: 1px 1px 10px 1px rgb(69, 115, 168);
+    box-shadow: 1px 1px 10px 1px rgb(69, 115, 168);
 
 }
 
@@ -166,4 +171,16 @@ justify-content: center;
 
 .parrafo-portafolio{
     margin-bottom: 2rem;
+}
+/* Aquí inicia la sesión de contacto */
+
+
+.form-contacto{
+ padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    box-shadow: 1px 1px 10px 1px #ccc;
+    margin-top: 2rem;
+    
 }
