@@ -100,7 +100,9 @@ a{
     text-align: justify;
     padding-top: 3rem;
 }
-
+.habilidades{
+    padding: 5rem;
+}
     
 
 
@@ -171,6 +173,17 @@ justify-content: center;
 
 .parrafo-portafolio{
     margin-bottom: 2rem;
+}
+
+
+.container-texto-portafolio{
+    display: flex;
+
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
 /* Aquí inicia la sesión de contacto */
 
